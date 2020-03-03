@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_home"
+        android:checked="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_feed"
+        android:checked="true"
+        android:icon="@drawable/feed"
+        android:title="@string/feed"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_official"
+        android:checked="true"
+        android:icon="@drawable/official"
+        android:title="@string/of_str"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/nav_keranjang"
+        android:checked="true"
+        android:icon="@drawable/kranjang"
+        android:title="@string/chart"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/nav_profile"
+        android:checked="true"
+        android:icon="@drawable/profile"
+        android:title="@string/profile"
+        app:showAsAction="ifRoom"/>
+
+</menu>

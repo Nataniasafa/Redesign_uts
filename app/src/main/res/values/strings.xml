@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Redesign</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="feed">Feed</string>
+    <string name="of_str">Official Store</string>
+    <string name="chart">Cart</string>
+    <string name="profile">Profile</string>
+    <string name="promo">Lihat Semua Promo</string>
+    <string name="more">Lihat Semua</string>
+    <string name="all_cat">All</string>
+    <string name="pengguna">Khusus Pengguna Baru</string>
+    <string name="cegah">Cegah Virus Menyebar</string>
+    <string name="storage">Storage Festival</string>
+    <string name="terlaris">Terlaris</string>
+    <string name="official">Official Store</string>
+    <string name="for_polo">For Polo</string>
+    <string name="koleksi">Koleksi terbaru</string>
+    <string name="discount">Dincount</string>
+    <string name="makanan">Makanan</string>
+    <string name="stetoskop">Stetoskop</string>
+    <string name="termometer">Termometer</string>
+    <string name="pencil_case">Pencil case</string>
+    <string name="jam">Jam</string>
+    <string name="box">Box</string>
+</resources>
