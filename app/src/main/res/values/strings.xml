@@ -26,4 +26,65 @@
     <string name="pencil_case">Pencil case</string>
     <string name="jam">Jam</string>
     <string name="box">Box</string>
+    <string name="price">Price</string>
+
+    <string-array name="virus">
+        <item>Masker</item>
+        <item>Stetoskop</item>
+        <item>Termometer</item>
+    </string-array>
+
+    <string-array name="price_virus">
+        <item>Rp 390.000,- </item>
+        <item>Rp 85.000,-</item>
+        <item>Rp 40.000,-</item>
+    </string-array>
+
+    <array name="img_virus">
+        <item>@drawable/masker</item>
+        <item>@drawable/stetoskop</item>
+        <item>@drawable/termometer</item>
+    </array>
+
+    <string-array name="terlaris">
+        <item>Pencil Case</item>
+        <item>Jam Tangan</item>
+        <item>Box Kado</item>
+    </string-array>
+
+    <string-array name="price_terlaris">
+        <item>Rp 30.000,-</item>
+        <item>Rp 560.000,-</item>
+        <item>Rp 15.000,-</item>
+    </string-array>
+
+    <array name="img_terlaris">
+        <item>@drawable/peach</item>
+        <item>@drawable/jam</item>
+        <item>@drawable/box</item>
+    </array>
+    <string-array name="category">
+        <item>All</item>
+        <item>Belanja</item>
+        <item>Keuangan</item>
+        <item>Listrik</item>
+        <item>Travel</item>
+        <item>Top Up</item>
+        <item>HandPhone</item>
+        <item>Pulsa</item>
+        <item>Emas</item>
+    </string-array>
+    <array name="img_category">
+        <item>@drawable/icon_1</item>
+        <item>@drawable/icon_2</item>
+        <item>@drawable/icon_3</item>
+        <item>@drawable/icon_4</item>
+        <item>@drawable/icon_5</item>
+        <item>@drawable/icon_6</item>
+        <item>@drawable/icon_7</item>
+        <item>@drawable/icon_8</item>
+        <item>@drawable/icon_9</item>
+        <item>@drawable/icon_10</item>
+    </array>
+
 </resources>

@@ -12,14 +12,15 @@
 
         <com.synnapps.carouselview.CarouselView
             android:id="@+id/is_main"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/_500sdp"
             android:layout_height="@dimen/_230sdp"
             android:background="@android:color/holo_green_light"
             app:fillColor="@android:color/white"
             app:pageColor="@android:color/transparent"
             app:radius="@dimen/_3sdp"
             app:slideInterval="3000"
-            app:strokeWidth="@dimen/_1sdp">
+            app:strokeWidth="@dimen/_1sdp"
+            >
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -103,196 +104,18 @@
             android:layout_marginTop="@dimen/_5sdp"
             android:src="@drawable/kupon" />
 
-        <HorizontalScrollView
-            android:id="@+id/hs_category"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/iv_kupon"
-            android:layout_marginTop="20dp"
-            android:scrollbars="none">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="@dimen/_40sdp"
-                        android:layout_height="@dimen/_40sdp"
-                        android:src="@drawable/icon_1" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="@string/all_cat" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="@dimen/_40sdp"
-                        android:layout_height="@dimen/_40sdp"
-                        android:src="@drawable/icon_2" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="belanja" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="@dimen/_40sdp"
-                        android:layout_height="@dimen/_40sdp"
-                        android:src="@drawable/icon_3" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="Keuangan" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="@dimen/_40sdp"
-                        android:layout_height="@dimen/_40sdp"
-                        android:src="@drawable/icon_4" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="Listrik" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="@dimen/_40sdp"
-                        android:layout_height="@dimen/_40sdp"
-                        android:src="@drawable/icon_5" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="Travel" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="@dimen/_40sdp"
-                        android:layout_height="@dimen/_40sdp"
-                        android:src="@drawable/icon_6" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="Top up" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="@dimen/_40sdp"
-                        android:layout_height="@dimen/_40sdp"
-                        android:src="@drawable/icon_7" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="handphone" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="@dimen/_40sdp"
-                        android:layout_height="@dimen/_40sdp"
-                        android:src="@drawable/icon_8" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="pulsa" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="@dimen/_40sdp"
-                        android:layout_height="@dimen/_40sdp"
-                        android:src="@drawable/icon_9" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="pasca" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="@dimen/_40sdp"
-                        android:layout_height="@dimen/_40sdp"
-                        android:src="@drawable/icon_10" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="emas" />
-                </LinearLayout>
-            </LinearLayout>
-        </HorizontalScrollView>
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/rv_category"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/iv_kupon"
+           android:layout_margin="@dimen/_5sdp"/>
 
         <TextView
             android:id="@+id/tv_pengguna_baru"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/hs_category"
+            android:layout_below="@id/rv_category"
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginEnd="@dimen/_10sdp"
             android:paddingStart="@dimen/_5sdp"
@@ -305,7 +128,7 @@
             android:id="@+id/tv_lihat_semua"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/hs_category"
+            android:layout_below="@id/rv_category"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginEnd="@dimen/_10sdp"
@@ -346,82 +169,18 @@
             android:textColor="@android:color/holo_blue_light"
             android:textSize="@dimen/_10sdp" />
 
-        <HorizontalScrollView
-            android:id="@+id/hs_virus"
-            android:layout_width="wrap_content"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_virus"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tv_lihat_semua_2"
-            android:layout_marginTop="20dp"
-            android:scrollbars="none">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="@dimen/_5sdp">
-
-                    <ImageView
-                        android:layout_width="@dimen/_100sdp"
-                        android:layout_height="@dimen/_100sdp"
-                        android:src="@drawable/masker" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="masker" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="@dimen/_5sdp">
-
-                    <ImageView
-                        android:layout_width="@dimen/_100sdp"
-                        android:layout_height="@dimen/_100sdp"
-                        android:src="@drawable/stetoskop" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="@string/stetoskop" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="@dimen/_5sdp">
-
-                    <ImageView
-                        android:layout_width="@dimen/_100sdp"
-                        android:layout_height="@dimen/_100sdp"
-                        android:src="@drawable/termometer" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="@string/termometer" />
-                </LinearLayout>
-            </LinearLayout>
-
-
-        </HorizontalScrollView>
+            android:layout_below="@id/tv_cegah_virus"
+            android:layout_margin="@dimen/_5sdp" />
 
         <TextView
             android:id="@+id/tv_storage_fest"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/hs_virus"
+            android:layout_below="@id/rv_virus"
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginEnd="@dimen/_10sdp"
             android:paddingStart="@dimen/_5sdp"
@@ -434,7 +193,7 @@
             android:id="@+id/tv_lihat_semua_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/hs_virus"
+            android:layout_below="@id/rv_virus"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginEnd="@dimen/_10sdp"
@@ -474,80 +233,18 @@
             android:textColor="@android:color/holo_blue_light"
             android:textSize="@dimen/_10sdp" />
 
-        <HorizontalScrollView
-            android:id="@+id/hs_terlaris"
-            android:layout_width="wrap_content"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_terlaris"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_lihat_semua_4"
-            android:layout_marginTop="20dp"
-            android:scrollbars="none">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="@dimen/_5sdp">
-
-                    <ImageView
-                        android:layout_width="@dimen/_100sdp"
-                        android:layout_height="@dimen/_100sdp"
-                        android:src="@drawable/peach" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="@string/pencil_case" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="@dimen/_5sdp">
-
-                    <ImageView
-                        android:layout_width="@dimen/_100sdp"
-                        android:layout_height="@dimen/_100sdp"
-                        android:src="@drawable/jam" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="@string/jam" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="@dimen/_5sdp">
-
-                    <ImageView
-                        android:layout_width="@dimen/_100sdp"
-                        android:layout_height="@dimen/_100sdp"
-                        android:src="@drawable/box" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="@string/box" />
-                </LinearLayout>
-            </LinearLayout>
-        </HorizontalScrollView>
+            android:layout_margin="@dimen/_5sdp" />
 
         <TextView
             android:id="@+id/tv_Official_store"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/hs_terlaris"
+            android:layout_below="@id/rv_terlaris"
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginEnd="@dimen/_10sdp"
             android:paddingStart="@dimen/_5sdp"
@@ -560,7 +257,7 @@
             android:id="@+id/tv_lihat_semua_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/hs_terlaris"
+            android:layout_below="@id/rv_terlaris"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginEnd="@dimen/_10sdp"
@@ -582,64 +279,65 @@
             android:layout_below="@id/iv_official_store"
             android:layout_marginTop="20dp"
             android:scrollbars="none">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:padding="@dimen/_20sdp"
-                android:layout_margin="@dimen/_5sdp"
-                android:background="@drawable/bg_bt_1"
-                android:text="@string/for_polo" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/bg_bt_1"
+                    android:padding="@dimen/_20sdp"
+                    android:text="@string/for_polo" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:padding="@dimen/_20sdp"
-                android:layout_margin="@dimen/_5sdp"
-                android:background="@drawable/bg_bt_2"
-                android:text="@string/koleksi" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/bg_bt_2"
+                    android:padding="@dimen/_20sdp"
+                    android:text="@string/koleksi" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:padding="@dimen/_20sdp"
-                android:layout_margin="@dimen/_5sdp"
-                android:background="@drawable/bg_bt_3"
-                android:text="@string/promo" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/bg_bt_3"
+                    android:padding="@dimen/_20sdp"
+                    android:text="@string/promo" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:padding="@dimen/_20sdp"
-                android:layout_margin="@dimen/_5sdp"
-                android:background="@drawable/bg_bt_4"
-                android:text="@string/discount" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/bg_bt_4"
+                    android:padding="@dimen/_20sdp"
+                    android:text="@string/discount" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:padding="@dimen/_20sdp"
-                android:layout_margin="@dimen/_5sdp"
-                android:background="@drawable/bg_bt_5"
-                android:text="@string/koleksi" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/bg_bt_5"
+                    android:padding="@dimen/_20sdp"
+                    android:text="@string/koleksi" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:padding="@dimen/_20sdp"
-                android:layout_margin="@dimen/_5sdp"
-                android:background="@drawable/bg_bt_6"
-                android:text="@string/makanan" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/bg_bt_6"
+                    android:padding="@dimen/_20sdp"
+                    android:text="@string/makanan" />
             </LinearLayout>
 
         </HorizontalScrollView>
